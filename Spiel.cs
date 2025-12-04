@@ -70,6 +70,7 @@ namespace Adventure_Spiel_Remzi
             );
         }
 
+        private Ort aktuellerOrt;
 
 
         public void Start()
@@ -103,7 +104,7 @@ namespace Adventure_Spiel_Remzi
             int versuche = 12;
             List<char> benutzteBuchstaben = new List<char>();
 
-            Console.Clear();
+            
             Console.WriteLine("Dak will das Haus verlassen, aber die Tür des Zauns ist verriegelt");
             Console.WriteLine("🔒!");
             Console.WriteLine("Um den Zaun zu öffnen, musst du das geheime Passwort erraten.");
@@ -192,7 +193,7 @@ namespace Adventure_Spiel_Remzi
 
 
 
-        string eingabe;
+        //string eingabe;
 
         /* do
         {

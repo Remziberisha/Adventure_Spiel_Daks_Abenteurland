@@ -13,12 +13,15 @@ namespace Adventure_Spiel_Remzi
         public string Name;
         public string[] AsciArt;
         public string Beschreibung;
+        public Dictionary<string, Ort> Nachbarn;
 
         public Ort (string name, string[] asciiArt, string beschreibung)
         {
             Name = name;
             AsciArt = asciiArt;
             Beschreibung = beschreibung;
+            Nachbarn = new Dictionary<string, Ort>();
+
         }
 
         public void ZeigOrt()
@@ -26,6 +29,10 @@ namespace Adventure_Spiel_Remzi
             foreach (string s in AsciArt)
                 Console.WriteLine(s);
             Console.WriteLine($"\n{Beschreibung}");
+        }
+        public void FügeNachbarHinzu(string richtung, Ort ort)
+        {
+            Nachbarn[richtung] = ort;
         }
     }
 }
