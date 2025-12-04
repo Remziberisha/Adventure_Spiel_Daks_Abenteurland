@@ -11,9 +11,9 @@ namespace Adventure_Spiel_Remzi
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
-            
             Spiel spiel = new Spiel();
             spiel.Start();
         }
     }
 }
+            
