@@ -1,57 +1,40 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-
-namespace Adventure_Spiel_Remzi
+﻿
+namespace Adventure_Spiel_RemziBerisha
 {
-   
+
     internal class Hangman
     {
-        public static void hausAmAmselhof()
+        public static bool hausAmAmselhof()
         {
             Console.WriteLine("Dak ist eine Gummiente," +
                 " Sein Bruder Bert wurde von einem bösen Schwan namens Gary entführt und am Fuß eines Vulkans \ngefangen gehalten." +
                 " Jetzt muss Dak den Schwan finden, um seinen Bruder zu befreien.");
             Console.WriteLine("\"Drücke ENTER, um fortzufahren\"");
             Console.ReadKey();
-            Hangman minispiel = new Hangman("TEICH");
-            bool gewonnen = minispiel.Starte();
 
-            if (gewonnen)
-                Console.WriteLine("Dak kann jetzt das huas verlassen !");
-            else
-                Console.WriteLine("Dak muss später erneunt versuchen");
-            // Hier endet der erste kapitel , entscheidung BERG oder WALD
-        }
-        public static void Navigation(Ort aktuellerOrt)
-        {
-            while (true)
+            bool gewonnen = false;
+            while (!gewonnen)
             {
-                Console.Clear();
-                aktuellerOrt.ZeigOrt();
-                Console.WriteLine("\nMögliche Richtungen:");
+                Hangman minispiel = new Hangman("TEICH");
+                gewonnen = minispiel.Starte();
 
-                foreach (var n in aktuellerOrt.Nachbarn)
-                    Console.WriteLine($"- {n.Key}");
-
-                Console.Write("\nWohin möchtest du gehen? ");
-                string richtung = Console.ReadLine();
-
-                if (aktuellerOrt.Nachbarn.ContainsKey(richtung))
+                if (gewonnen)
                 {
-                    aktuellerOrt = aktuellerOrt.Nachbarn[richtung];
+                    Console.WriteLine("Dak kann jetzt das huas verlassen !");
+                    return true;
                 }
                 else
                 {
-                    Console.WriteLine("Diese Richtung gibt es nicht!");
-                    Console.WriteLine("Drücke ENTER, um es erneut zu versuchen...");
-                    Console.ReadLine();
+                    Console.WriteLine("Dak muss später erneunt versuchen");
+                    return false;
                 }
+                // Hier endet der erste kapitel , entscheidung BERG oder WALD
             }
+
+            return false;
         }
+
+
 
 
 
@@ -82,7 +65,6 @@ namespace Adventure_Spiel_Remzi
 
             Console.Clear();
             Console.WriteLine("\nDak will das Haus verlassen, aber die Tür des Zauns ist verriegelt");
-            Console.WriteLine("🔒!");
             Console.WriteLine("Um den Zaun zu öffnen, musst du das geheime Passwort erraten.");
             Console.WriteLine("Du kannst Buchstabe für Buchstabe eingeben oder direkt das ganze Wort.");
             Console.WriteLine($"Du hast {maxVersuche} Versuche.\n");
@@ -98,7 +80,7 @@ namespace Adventure_Spiel_Remzi
 
                 if (string.IsNullOrWhiteSpace(input))
                 {
-                    Console.WriteLine("\n⚠ Bitte etwas eingeben!");
+                    Console.WriteLine("\n Bitte etwas eingeben!");
                     continue;
                 }
 
@@ -108,14 +90,15 @@ namespace Adventure_Spiel_Remzi
                     if (input == geheimesWort)
                     {
                         Console.Clear();
-                        Console.WriteLine("🎉 Du hast das Passwort korrekt eingegeben!");
-                        Console.WriteLine("🔓 Die Tür öffnet sich.");
+                        Console.WriteLine(" Du hast das Passwort korrekt eingegeben!");
+                        Console.WriteLine(" Die Tür öffnet sich.");
+                        Spiel.Pause();
                         return true;
                     }
                     else
                     {
                         versuche--;
-                        Console.WriteLine("\n❌ Falsch! Das Wort ist nicht korrekt.");
+                        Console.WriteLine("\n Falsch! Das Wort ist nicht korrekt.");
                     }
                 }
                 else // Einzelner Buchstabe
@@ -124,7 +107,7 @@ namespace Adventure_Spiel_Remzi
 
                     if (benutzteBuchstaben.Contains(buchstabe))
                     {
-                        Console.WriteLine("\n⚠ Diesen Buchstaben hast du schon benutzt!");
+                        Console.WriteLine("\n Diesen Buchstaben hast du schon benutzt!");
                         continue;
                     }
 
@@ -132,7 +115,7 @@ namespace Adventure_Spiel_Remzi
 
                     if (geheimesWort.Contains(buchstabe))
                     {
-                        Console.WriteLine("\n✔ Richtiger Buchstabe!");
+                        Console.WriteLine("\n Richtiger Buchstabe!");
                         for (int i = 0; i < geheimesWort.Length; i++)
                             if (geheimesWort[i] == buchstabe)
                                 erraten[i] = buchstabe;
@@ -140,15 +123,15 @@ namespace Adventure_Spiel_Remzi
                         if (!erraten.Contains('_'))
                         {
                             Console.Clear();
-                            Console.WriteLine("🎉 Du hast das Passwort geknackt!");
-                            Console.WriteLine("🔓 Die Tür öffnet sich.");
+                            Console.WriteLine(" Du hast das Passwort geknackt!");
+                            Console.WriteLine(" Die Tür öffnet sich.");
                             return true;
                         }
                     }
                     else
                     {
                         versuche--;
-                        Console.WriteLine("\n❌ Falsch! Der Buchstabe gehört nicht zum Passwort.");
+                        Console.WriteLine("\n Falsch! Der Buchstabe gehört nicht zum Passwort.");
                     }
                 }
 
@@ -158,7 +141,7 @@ namespace Adventure_Spiel_Remzi
             }
 
             Console.Clear();
-            Console.WriteLine("❌ Du hast alle Versuche verbraucht!");
+            Console.WriteLine(" Du hast alle Versuche verbraucht!");
             Console.WriteLine("Die Tür bleibt verschlossen… Dak muss es später erneut versuchen.\n");
             return false;
         }

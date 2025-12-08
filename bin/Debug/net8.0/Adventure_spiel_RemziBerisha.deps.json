@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Adventure_spiel_RemziBerisha/1.0.0": {
+        "runtime": {
+          "Adventure_spiel_RemziBerisha.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Adventure_spiel_RemziBerisha/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

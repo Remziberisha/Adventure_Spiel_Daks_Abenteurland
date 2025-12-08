@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36717.8 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adventure_Spiel_Remzi", "Adventure_Spiel_Remzi.csproj", "{30DBC969-CAEF-4EE4-9FF2-AE40072B6A6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adventure_spiel_RemziBerisha", "Adventure_spiel_RemziBerisha.csproj", "{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{30DBC969-CAEF-4EE4-9FF2-AE40072B6A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{30DBC969-CAEF-4EE4-9FF2-AE40072B6A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{30DBC969-CAEF-4EE4-9FF2-AE40072B6A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{30DBC969-CAEF-4EE4-9FF2-AE40072B6A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {BF5A9DC4-806D-4E6F-BE84-9065599E2D34}
+		SolutionGuid = {C1E50702-1E97-4FFC-9850-63FB04A9A1DE}
 	EndGlobalSection
 EndGlobal
