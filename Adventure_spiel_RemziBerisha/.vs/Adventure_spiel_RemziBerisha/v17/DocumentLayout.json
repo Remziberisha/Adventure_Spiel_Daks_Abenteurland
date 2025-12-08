@@ -1,0 +1,127 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BerishaRemzi\\source\\repos\\Adventure_spiel_RemziBerisha\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|c:\\users\\berisharemzi\\source\\repos\\adventure_spiel_remziberisha\\ort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|solutionrelative:ort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|c:\\users\\berisharemzi\\source\\repos\\adventure_spiel_remziberisha\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|c:\\users\\berisharemzi\\source\\repos\\adventure_spiel_remziberisha\\spiel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|solutionrelative:spiel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|c:\\users\\berisharemzi\\source\\repos\\adventure_spiel_remziberisha\\navigationsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|solutionrelative:navigationsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|c:\\users\\berisharemzi\\source\\repos\\adventure_spiel_remziberisha\\hangman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|solutionrelative:hangman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Spiel.cs",
+              "DocumentMoniker": "C:\\Users\\BerishaRemzi\\source\\repos\\Adventure_spiel_RemziBerisha\\Spiel.cs",
+              "RelativeDocumentMoniker": "Spiel.cs",
+              "ToolTip": "C:\\Users\\BerishaRemzi\\source\\repos\\Adventure_spiel_RemziBerisha\\Spiel.cs",
+              "RelativeToolTip": "Spiel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T22:27:40.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavigationSystem.cs",
+              "DocumentMoniker": "C:\\Users\\BerishaRemzi\\source\\repos\\Adventure_spiel_RemziBerisha\\NavigationSystem.cs",
+              "RelativeDocumentMoniker": "NavigationSystem.cs",
+              "ToolTip": "C:\\Users\\BerishaRemzi\\source\\repos\\Adventure_spiel_RemziBerisha\\NavigationSystem.cs",
+              "RelativeToolTip": "NavigationSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T22:27:38.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Hangman.cs",
+              "DocumentMoniker": "C:\\Users\\BerishaRemzi\\source\\repos\\Adventure_spiel_RemziBerisha\\Hangman.cs",
+              "RelativeDocumentMoniker": "Hangman.cs",
+              "ToolTip": "C:\\Users\\BerishaRemzi\\source\\repos\\Adventure_spiel_RemziBerisha\\Hangman.cs",
+              "RelativeToolTip": "Hangman.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowBgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T22:27:36.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ort.cs",
+              "DocumentMoniker": "C:\\Users\\BerishaRemzi\\source\\repos\\Adventure_spiel_RemziBerisha\\Ort.cs",
+              "RelativeDocumentMoniker": "Ort.cs",
+              "ToolTip": "C:\\Users\\BerishaRemzi\\source\\repos\\Adventure_spiel_RemziBerisha\\Ort.cs",
+              "RelativeToolTip": "Ort.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAowFwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T22:13:07.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BerishaRemzi\\source\\repos\\Adventure_spiel_RemziBerisha\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\BerishaRemzi\\source\\repos\\Adventure_spiel_RemziBerisha\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T22:09:55.628Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
