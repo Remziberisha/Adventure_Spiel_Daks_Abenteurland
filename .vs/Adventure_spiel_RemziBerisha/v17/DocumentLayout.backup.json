@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "Combat.cs",
               "ToolTip": "C:\\Users\\BerishaRemzi\\source\\repos\\Adventure_Spiel_Daks_Abenteurland\\Combat.cs",
               "RelativeToolTip": "Combat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwFgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-08T10:47:19.463Z",
               "EditorCaption": ""
@@ -75,8 +75,7 @@
               "RelativeToolTip": "Spiel.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAADwvyAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T22:27:40.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T22:27:40.367Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "NavigationSystem.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T22:27:38.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T22:27:38.02Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "Hangman.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAcwJYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T22:27:36.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T22:27:36.723Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "Ort.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T22:13:07.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T22:13:07.457Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T22:09:55.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T22:09:55.628Z"
             }
           ]
         },
