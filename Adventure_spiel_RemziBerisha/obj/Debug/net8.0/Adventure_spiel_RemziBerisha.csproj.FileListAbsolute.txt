@@ -1,0 +1,14 @@
+C:\Users\BerishaRemzi\source\repos\Adventure_spiel_RemziBerisha\bin\Debug\net8.0\Adventure_spiel_RemziBerisha.exe
+C:\Users\BerishaRemzi\source\repos\Adventure_spiel_RemziBerisha\bin\Debug\net8.0\Adventure_spiel_RemziBerisha.deps.json
+C:\Users\BerishaRemzi\source\repos\Adventure_spiel_RemziBerisha\bin\Debug\net8.0\Adventure_spiel_RemziBerisha.runtimeconfig.json
+C:\Users\BerishaRemzi\source\repos\Adventure_spiel_RemziBerisha\bin\Debug\net8.0\Adventure_spiel_RemziBerisha.dll
+C:\Users\BerishaRemzi\source\repos\Adventure_spiel_RemziBerisha\bin\Debug\net8.0\Adventure_spiel_RemziBerisha.pdb
+C:\Users\BerishaRemzi\source\repos\Adventure_spiel_RemziBerisha\obj\Debug\net8.0\Adventure_spiel_RemziBerisha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BerishaRemzi\source\repos\Adventure_spiel_RemziBerisha\obj\Debug\net8.0\Adventure_spiel_RemziBerisha.AssemblyInfoInputs.cache
+C:\Users\BerishaRemzi\source\repos\Adventure_spiel_RemziBerisha\obj\Debug\net8.0\Adventure_spiel_RemziBerisha.AssemblyInfo.cs
+C:\Users\BerishaRemzi\source\repos\Adventure_spiel_RemziBerisha\obj\Debug\net8.0\Adventure_spiel_RemziBerisha.csproj.CoreCompileInputs.cache
+C:\Users\BerishaRemzi\source\repos\Adventure_spiel_RemziBerisha\obj\Debug\net8.0\Adventure_spiel_RemziBerisha.dll
+C:\Users\BerishaRemzi\source\repos\Adventure_spiel_RemziBerisha\obj\Debug\net8.0\refint\Adventure_spiel_RemziBerisha.dll
+C:\Users\BerishaRemzi\source\repos\Adventure_spiel_RemziBerisha\obj\Debug\net8.0\Adventure_spiel_RemziBerisha.pdb
+C:\Users\BerishaRemzi\source\repos\Adventure_spiel_RemziBerisha\obj\Debug\net8.0\Adventure_spiel_RemziBerisha.genruntimeconfig.cache
+C:\Users\BerishaRemzi\source\repos\Adventure_spiel_RemziBerisha\obj\Debug\net8.0\ref\Adventure_spiel_RemziBerisha.dll
