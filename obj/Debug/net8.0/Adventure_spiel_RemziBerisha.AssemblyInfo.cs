@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Adventure_spiel_RemziBerisha")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2a072c2211efcb9c5202c71b9aafa5f42675b7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80d3eec5297cea1d71ff1d74e27f0f29d4d4fdfb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Adventure_spiel_RemziBerisha")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Adventure_spiel_RemziBerisha")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

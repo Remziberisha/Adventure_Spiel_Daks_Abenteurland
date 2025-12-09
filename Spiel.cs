@@ -136,7 +136,14 @@ namespace Adventure_Spiel_RemziBerisha
                 Console.Clear();
                 Console.WriteLine("\nDie Hitze ist unerträglich");
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("\nGarry der boese Schwan erscheint!");
+                Console.WriteLine(@"   ____       ____
+  /    )     (    \
+ /    (  ^_^  )    \
+|  {   \('v')/   }  |
+|   {   /   \   }   |
+|_)(   /\   /\   )(_|
+|)  (_ | \|/  |_)  (|
+'     ""--^^^^--"" BP '");
                 Console.ResetColor();
                 Pause();
                 Combat combat = new Combat ("Garry", 70, 11);

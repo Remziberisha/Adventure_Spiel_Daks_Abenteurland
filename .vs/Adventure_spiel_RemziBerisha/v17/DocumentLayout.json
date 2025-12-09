@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\BerishaRemzi\\source\\repos\\Adventure_Spiel_Daks_Abenteurland\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|c:\\users\\berisharemzi\\source\\repos\\adventure_spiel_daks_abenteurland\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|solutionrelative:combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|c:\\users\\berisharemzi\\source\\repos\\adventure_spiel_daks_abenteurland\\hangman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|solutionrelative:hangman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|c:\\users\\berisharemzi\\source\\repos\\adventure_spiel_daks_abenteurland\\spiel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|solutionrelative:spiel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|c:\\users\\berisharemzi\\source\\repos\\adventure_spiel_daks_abenteurland\\ort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|solutionrelative:ort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|c:\\users\\berisharemzi\\source\\repos\\adventure_spiel_daks_abenteurland\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|c:\\users\\berisharemzi\\source\\repos\\adventure_spiel_daks_abenteurland\\spiel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|solutionrelative:spiel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|c:\\users\\berisharemzi\\source\\repos\\adventure_spiel_daks_abenteurland\\combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|solutionrelative:combat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|c:\\users\\berisharemzi\\source\\repos\\adventure_spiel_daks_abenteurland\\hangman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC77EB4A-E2AC-4A00-9261-5C5C27A26B4E}|Adventure_spiel_RemziBerisha.csproj|solutionrelative:hangman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,13 +50,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Combat.cs",
               "DocumentMoniker": "C:\\Users\\BerishaRemzi\\source\\repos\\Adventure_Spiel_Daks_Abenteurland\\Combat.cs",
               "RelativeDocumentMoniker": "Combat.cs",
-              "ToolTip": "C:\\Users\\BerishaRemzi\\source\\repos\\Adventure_Spiel_Daks_Abenteurland\\Combat.cs*",
-              "RelativeToolTip": "Combat.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAAowBoAAAA7AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\BerishaRemzi\\source\\repos\\Adventure_Spiel_Daks_Abenteurland\\Combat.cs",
+              "RelativeToolTip": "Combat.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAywDUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-08T10:47:19.463Z",
               "EditorCaption": ""
@@ -69,14 +69,14 @@
               "RelativeDocumentMoniker": "Spiel.cs",
               "ToolTip": "C:\\Users\\BerishaRemzi\\source\\repos\\Adventure_Spiel_Daks_Abenteurland\\Spiel.cs",
               "RelativeToolTip": "Spiel.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAowIcAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T22:27:40.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Hangman.cs",
               "DocumentMoniker": "C:\\Users\\BerishaRemzi\\source\\repos\\Adventure_Spiel_Daks_Abenteurland\\Hangman.cs",
               "RelativeDocumentMoniker": "Hangman.cs",
@@ -89,20 +89,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Ort.cs",
               "DocumentMoniker": "C:\\Users\\BerishaRemzi\\source\\repos\\Adventure_Spiel_Daks_Abenteurland\\Ort.cs",
               "RelativeDocumentMoniker": "Ort.cs",
               "ToolTip": "C:\\Users\\BerishaRemzi\\source\\repos\\Adventure_Spiel_Daks_Abenteurland\\Ort.cs",
               "RelativeToolTip": "Ort.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAIwHIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T22:13:07.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\BerishaRemzi\\source\\repos\\Adventure_Spiel_Daks_Abenteurland\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

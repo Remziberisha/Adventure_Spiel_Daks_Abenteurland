@@ -49,7 +49,9 @@ namespace Adventure_spiel_RemziBerisha
 
                     if (enemyHP <= 10)
                     {
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine($"{enemyName} :NEIN! Das kann nicht sein");
+                        Console.ResetColor();
                     }
                 }
                 else if (eingabe == "2")
