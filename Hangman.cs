@@ -16,16 +16,21 @@ namespace Adventure_Spiel_RemziBerisha
             while (!gewonnen)
             {
                 Hangman minispiel = new Hangman("TEICH");
+                
                 gewonnen = minispiel.Starte();
 
                 if (gewonnen)
                 {
+                    Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("Dak kann jetzt das huas verlassen !");
+                    Console.ResetColor();
                     return true;
                 }
                 else
                 {
+                    Console.ForegroundColor= ConsoleColor.Red;
                     Console.WriteLine("Dak muss später erneunt versuchen");
+                    Console.ResetColor();
                     return false;
                 }
                 // Hier endet der erste kapitel , entscheidung BERG oder WALD
@@ -64,7 +69,7 @@ namespace Adventure_Spiel_RemziBerisha
             }
 
             Console.Clear();
-            Console.WriteLine("\nDak will das Haus verlassen, aber die Tür des Zauns ist verriegelt");
+            Console.WriteLine("\nDak will das Haus verlassen, aber der Zaun ist verriegelt");
             Console.WriteLine("Um den Zaun zu öffnen, musst du das geheime Passwort erraten.");
             Console.WriteLine("Du kannst Buchstabe für Buchstabe eingeben oder direkt das ganze Wort.");
             Console.WriteLine($"Du hast {maxVersuche} Versuche.\n");
@@ -90,15 +95,19 @@ namespace Adventure_Spiel_RemziBerisha
                     if (input == geheimesWort)
                     {
                         Console.Clear();
+                        Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine(" Du hast das Passwort korrekt eingegeben!");
                         Console.WriteLine(" Die Tür öffnet sich.");
+                        Console.ResetColor();
                         Spiel.Pause();
                         return true;
                     }
                     else
                     {
                         versuche--;
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("\n Falsch! Das Wort ist nicht korrekt.");
+                        Console.ResetColor();
                     }
                 }
                 else // Einzelner Buchstabe
@@ -107,7 +116,9 @@ namespace Adventure_Spiel_RemziBerisha
 
                     if (benutzteBuchstaben.Contains(buchstabe))
                     {
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("\n Diesen Buchstaben hast du schon benutzt!");
+                        Console.ResetColor();
                         continue;
                     }
 
@@ -115,7 +126,9 @@ namespace Adventure_Spiel_RemziBerisha
 
                     if (geheimesWort.Contains(buchstabe))
                     {
+                        Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("\n Richtiger Buchstabe!");
+                        Console.ResetColor();
                         for (int i = 0; i < geheimesWort.Length; i++)
                             if (geheimesWort[i] == buchstabe)
                                 erraten[i] = buchstabe;
@@ -123,15 +136,19 @@ namespace Adventure_Spiel_RemziBerisha
                         if (!erraten.Contains('_'))
                         {
                             Console.Clear();
+                            Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine(" Du hast das Passwort geknackt!");
                             Console.WriteLine(" Die Tür öffnet sich.");
+                            Console.ResetColor();
                             return true;
                         }
                     }
                     else
                     {
                         versuche--;
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("\n Falsch! Der Buchstabe gehört nicht zum Passwort.");
+                        Console.ResetColor();
                     }
                 }
 
@@ -141,8 +158,10 @@ namespace Adventure_Spiel_RemziBerisha
             }
 
             Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(" Du hast alle Versuche verbraucht!");
             Console.WriteLine("Die Tür bleibt verschlossen… Dak muss es später erneut versuchen.\n");
+            Console.ResetColor();
             return false;
         }
     }

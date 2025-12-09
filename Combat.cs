@@ -52,7 +52,7 @@ namespace Adventure_spiel_RemziBerisha
                 }
                 else if (eingabe == "2")
                 {
-                    int heilt = 14 + rnd.Next(-2, 4);
+                    int heilt = 15 + rnd.Next(-1, 4);
                     playerHP += heilt;
                     Console.WriteLine($"Dak nutzt einen Heiltrank. + {heilt}");
                 }

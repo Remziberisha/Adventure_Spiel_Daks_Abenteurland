@@ -64,7 +64,9 @@ namespace Adventure_Spiel_RemziBerisha
                 else if (aktuellerOrt.Nachbarn.ContainsKey(eingabe))
                 {
                     aktuellerOrt =  aktuellerOrt.Nachbarn[eingabe];
+                    Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine($"Dak geht nach {aktuellerOrt.Name}");
+                    Console.ResetColor();
                     Pause();
                     OrtEvent();
                 }
@@ -104,7 +106,7 @@ namespace Adventure_Spiel_RemziBerisha
                 Console.ResetColor();
                 Pause();
                 Console.Clear();
-                Combat combat = new Combat("Fuchs", 30, 8);
+                Combat combat = new Combat("Fuchs", 32, 8);
                 bool kampfGewonen = combat.Start(ref dakHP, dakSchaden);
                 if (kampfGewonen && dakHP >0)
                 {
@@ -153,7 +155,9 @@ namespace Adventure_Spiel_RemziBerisha
         }
         private void ZeigStatus()
         {
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine($"\nHP: {dakHP}  |  Schaden: {dakSchaden}  |  Items: {inventory.Count}");
+            Console.ResetColor();
         }
     }
 }
