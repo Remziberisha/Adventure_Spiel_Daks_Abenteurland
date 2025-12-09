@@ -23,7 +23,9 @@ namespace Adventure_spiel_RemziBerisha
         }
         public bool Start(ref int playerHP, int playerDamage)
         {
-            Console.WriteLine($"Ein {enemyName} erscheint");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"***{enemyName} erscheint***");
+            Console.ResetColor();
 
             while (enemyHP > 0 && playerHP > 0)
             {
@@ -47,7 +49,7 @@ namespace Adventure_spiel_RemziBerisha
 
                     if (enemyHP <= 10)
                     {
-                        Console.WriteLine("NEIN! Das kann nicht sein");
+                        Console.WriteLine($"{enemyName} :NEIN! Das kann nicht sein");
                     }
                 }
                 else if (eingabe == "2")

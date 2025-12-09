@@ -112,7 +112,7 @@ namespace Adventure_Spiel_RemziBerisha
         public void ZeigOrt()
         {
             foreach (string s in AsciArt)
-                Console.WriteLine(s);
+            Console.WriteLine(s);
             Console.WriteLine($"\n{Beschreibung}");
         }
     }

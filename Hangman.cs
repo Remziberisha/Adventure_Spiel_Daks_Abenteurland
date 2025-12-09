@@ -69,7 +69,7 @@ namespace Adventure_Spiel_RemziBerisha
             }
 
             Console.Clear();
-            Console.WriteLine("\nDak will das Haus verlassen, aber der Zaun ist verriegelt");
+            Console.WriteLine("\nDak will das Haus verlassen.");
             Console.WriteLine("Um den Zaun zu öffnen, musst du das geheime Passwort erraten.");
             Console.WriteLine("Du kannst Buchstabe für Buchstabe eingeben oder direkt das ganze Wort.");
             Console.WriteLine($"Du hast {maxVersuche} Versuche.\n");
@@ -81,7 +81,7 @@ namespace Adventure_Spiel_RemziBerisha
                 Console.WriteLine($"Übrige Versuche: {versuche}");
                 Console.Write("\nGib einen Buchstaben oder das ganze Wort ein: ");
 
-                string input = Console.ReadLine().ToUpper().Trim();
+                string input = (Console.ReadLine() ?? "").ToUpper().Trim();
 
                 if (string.IsNullOrWhiteSpace(input))
                 {
@@ -119,6 +119,10 @@ namespace Adventure_Spiel_RemziBerisha
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("\n Diesen Buchstaben hast du schon benutzt!");
                         Console.ResetColor();
+                        Console.WriteLine("\nDrücke ENTER, um weiterzumachen...");
+                        Console.ReadLine();
+                        Console.Clear();
+
                         continue;
                     }
 
@@ -135,11 +139,11 @@ namespace Adventure_Spiel_RemziBerisha
 
                         if (!erraten.Contains('_'))
                         {
-                            Console.Clear();
                             Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine(" Du hast das Passwort geknackt!");
                             Console.WriteLine(" Die Tür öffnet sich.");
                             Console.ResetColor();
+                            Console.ReadLine();
                             return true;
                         }
                     }
@@ -160,7 +164,7 @@ namespace Adventure_Spiel_RemziBerisha
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(" Du hast alle Versuche verbraucht!");
-            Console.WriteLine("Die Tür bleibt verschlossen… Dak muss es später erneut versuchen.\n");
+            Console.WriteLine("Die Tür bleibt verschlossen… .\n");
             Console.ResetColor();
             return false;
         }

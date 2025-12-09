@@ -14,15 +14,27 @@ namespace Adventure_Spiel_RemziBerisha
         private bool garryBesiegt = false;
         private bool hangmanFertig = false;
         private bool fuchsBesiegt = false;
-        private const string SAVEFILE = "dak_save.json";
+       
 
         public void Start()
         {
             aktuellerOrt = Ort.HausAmAmselhof;
-            Console.WriteLine("Willkomen bei Dak's Abenteuerland");
-            Console.WriteLine("Gib dein Namen ein:");
+
+            //https://www.asciiart.eu/text-to-ascii-art
+            Console.WriteLine(@"__        ___ _ _ _                                     _          _        ____        _    _       
+\ \      / (_) | | | _____  _ __ ___   ___ _ __        | |__   ___(_)      |  _ \  __ _| | _( )___   
+ \ \ /\ / /| | | | |/ / _ \| '_ ` _ \ / _ \ '_ \       | '_ \ / _ \ |      | | | |/ _` | |/ /// __|  
+  \ V  V / | | | |   < (_) | | | | | |  __/ | | |      | |_) |  __/ |      | |_| | (_| |   <  \__ \  
+   \_/\_/_ |_|_|_|_|\_\___/|_| |_| |_|\___|_| |_| _    |_.__/ \___|_|      |____/ \__,_|_|\_\ |___/  
+   / \  | |__   ___ _ __ | |_ ___ _   _  ___ _ __| | __ _ _ __   __| |                               
+  / _ \ | '_ \ / _ \ '_ \| __/ _ \ | | |/ _ \ '__| |/ _` | '_ \ / _` |                               
+ / ___ \| |_) |  __/ | | | ||  __/ |_| |  __/ |  | | (_| | | | | (_| |                               
+/_/   \_\_.__/ \___|_| |_|\__\___|\__,_|\___|_|  |_|\__,_|_| |_|\__,_|    ");
+
+            Console.WriteLine("\nGib dein Namen ein:");
 
             string name = Console.ReadLine()?.Trim() ?? "";
+            Console.Clear();
             Console.WriteLine($"Hallo {name}");
             if (aktuellerOrt == Ort.HausAmAmselhof && !hangmanFertig)
             {
@@ -65,7 +77,7 @@ namespace Adventure_Spiel_RemziBerisha
                 {
                     aktuellerOrt =  aktuellerOrt.Nachbarn[eingabe];
                     Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine($"Dak geht nach {aktuellerOrt.Name}");
+                    Console.WriteLine($"Dak geht richtung {aktuellerOrt.Name}");
                     Console.ResetColor();
                     Pause();
                     OrtEvent();
@@ -121,6 +133,7 @@ namespace Adventure_Spiel_RemziBerisha
             }
             if (aktuellerOrt ==Ort.VulkanAschenturm && !garryBesiegt)
             {
+                Console.Clear();
                 Console.WriteLine("\nDie Hitze ist unerträglich");
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("\nGarry der boese Schwan erscheint!");
