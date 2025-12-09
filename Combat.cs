@@ -43,7 +43,7 @@ namespace Adventure_spiel_RemziBerisha
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine($"Dak atackiert und verursacht {schaden} Schaden!");
                     Console.ResetColor();
-                    enemyHP -= schaden;
+                    enemyHP-=schaden;
 
                     if (enemyHP <= 10)
                     {
@@ -81,7 +81,7 @@ namespace Adventure_spiel_RemziBerisha
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine($"{enemyName} trifft Dak und verursacht {schaden} Schaden");
                     Console.ResetColor();
-                    if (playerHP <= 0) ;
+                    if (playerHP <= 0) 
                     {
                         Console.ForegroundColor = ConsoleColor.DarkRed;
                         Console.WriteLine("Dak Wurde Besiegt...");
@@ -91,6 +91,14 @@ namespace Adventure_spiel_RemziBerisha
                 }
 
             }
+            
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"\n{enemyName} wurde besiegt!");
+            Console.ResetColor();
+            
+            return playerHP > 0;
+
+          
         }
         
     }

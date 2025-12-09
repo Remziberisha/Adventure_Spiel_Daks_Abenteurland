@@ -104,7 +104,7 @@ namespace Adventure_Spiel_RemziBerisha
 
             Nebeltal.FügeNachbarHinzu("VULKAN", VulkanAschenturm);
             Nebeltal.FügeNachbarHinzu("BERG", Steinhornberge);
-            Nebeltal.FügeNachbarHinzu("Wald", Fluesterwald);
+            Nebeltal.FügeNachbarHinzu("WALD", Fluesterwald);
 
             VulkanAschenturm.FügeNachbarHinzu("TAL", Nebeltal);
         }
